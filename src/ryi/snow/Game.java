@@ -36,7 +36,7 @@ public class Game {
 			case "c1": story.selectPosition(nextPosition1); break;
 			case "c2": story.selectPosition(nextPosition2); break;
 			case "c3": story.selectPosition(nextPosition3); break;
-			case "c4": break;
+			case "c4": story.selectPosition(nextPosition4); break;
 			}
 			
 		}
